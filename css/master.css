@@ -13,9 +13,10 @@ body{
 .marquee {
   position: relative;
   overflow: hidden;
-  --offset: 5vw;
-  --move-initial: calc(-10% + var(--offset));
-  --move-final: calc(-40% + var(--offset));
+  --offset: 2vw;
+  --move-initial: calc(-10.5% + var(--offset));
+  --move-final: calc(-50% + var(--offset));
+  border-bottom: 1px solid black;
 }
 
 .marquee__inner {
