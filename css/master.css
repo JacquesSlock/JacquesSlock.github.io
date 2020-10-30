@@ -8,7 +8,7 @@
   overflow: hidden;
   --offset: 20vw;
   --move-initial: calc(-10% + var(--offset));
-  --move-final: calc(-90% + var(--offset));
+  --move-final: calc(-20% + var(--offset));
 }
 
 .marquee__inner {
