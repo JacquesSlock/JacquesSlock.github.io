@@ -6,7 +6,7 @@
 .marquee {
   position: relative;
   overflow: hidden;
-  --offset: 20vw;
+  --offset: 10vw;
   --move-initial: calc(-10% + var(--offset));
   --move-final: calc(-20% + var(--offset));
 }
