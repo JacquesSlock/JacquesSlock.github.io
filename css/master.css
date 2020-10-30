@@ -1,21 +1,30 @@
 *{
   font-size: 24pt;
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
+.logo{
+  width: 150px;
+  height: 150px;
+}
 body{
   margin: 0;
   padding: 0;
 }
 
+.main_text{
+  padding: 5%;
+}
+
+footer{
+  padding: 5% 55px 15px 15px;
+  font-size: 14pt;
+}
 .marquee {
   position: relative;
   overflow: hidden;
-  --offset: 2vw;
-  --move-initial: calc(-10.5% + var(--offset));
-  --move-final: calc(-50% + var(--offset));
+  --offset: 10vw;
+  --move-initial: calc(-10% + var(--offset));
+  --move-final: calc(-65.5% + var(--offset));
   border-bottom: 1px solid black;
 }
 
@@ -30,7 +39,7 @@ body{
 }
 
 .marquee span {
-  font-size: 10vw;
+  font-size: 5vw;
   padding: 0 2vw;
 }
 
@@ -46,4 +55,8 @@ body{
   100% {
       transform: translate3d(var(--move-final), 0, 0);
   }
+}
+
+li{
+  margin: 50px 0;
 }
