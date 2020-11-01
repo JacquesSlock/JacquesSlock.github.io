@@ -1,5 +1,7 @@
 *{
   font-size: 32pt;
+  color: #0000CD;
+  /* //background-color: blue; */
 }
 
 .logo{
@@ -31,7 +33,12 @@ footer{
   --offset: 10vw;
   --move-initial: calc(-10% + var(--offset));
   --move-final: calc(-65.5% + var(--offset));
-  border-bottom: 1px solid black;
+  border-bottom: 3px solid #0000CD;
+    border-top: 3px solid #0000CD;
+}
+
+.marquee-top{
+    border-top: 0px;
 }
 
 .marquee__inner {
