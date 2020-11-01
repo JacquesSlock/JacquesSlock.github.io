@@ -1,5 +1,5 @@
 *{
-  font-size: 24pt;
+  font-size: 32pt;
 }
 
 .logo{
@@ -9,6 +9,7 @@
 body{
   margin: 0;
   padding: 0;
+  margin-bottom: 350px;
 }
 
 .main_text{
@@ -16,8 +17,13 @@ body{
 }
 
 footer{
-  padding: 5% 55px 15px 15px;
-  font-size: 14pt;
+  padding: 5% 15px 15px 15px;
+  position: fixed;
+  z-index: 5;
+  bottom: 0;
+  font-size: 24pt;
+  background-color: white;
+
 }
 .marquee {
   position: relative;
