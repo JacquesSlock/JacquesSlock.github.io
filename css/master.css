@@ -3,10 +3,14 @@
   color: #0000CD;
   /* //background-color: blue; */
 }
+@media screen and (max-width: 600px) {
+  * {
+    font-size: 48pt;
+  }
+}
 
 .logo{
-  width: 150px;
-  height: 150px;
+  height: 1em;
 }
 body{
   margin: 0;
@@ -95,7 +99,7 @@ li{
   opacity: 0;
   position: absolute;
   left: 95%;
-  top: 90%;
+  top: 85%;
   transform-origin: 50% 50%;
   transform: translate3d(-50%, -50%, 0);
 }
@@ -126,7 +130,7 @@ li{
 @keyframes arrow-movement {
   0% {
     opacity: 0;
-    top: 85%;
+    top: 80%;
   }
   70% {
     opacity: 1;
