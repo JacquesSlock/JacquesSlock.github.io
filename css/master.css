@@ -43,6 +43,9 @@ footer > p > a{
   footer {
     padding-bottom: 30px;
   }
+  ol{
+    padding: 0;
+  }
 }
 .marquee {
   position: relative;
