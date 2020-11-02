@@ -41,6 +41,9 @@ footer > p > a{
   footer {
     padding-bottom: 30px;
   }
+  footer > p > a, footer > p{
+    font-size: 10pt;
+  }
   ol{
     padding: 0;
   }
