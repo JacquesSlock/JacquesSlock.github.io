@@ -35,13 +35,13 @@ footer{
 }
 footer > p{
     color: white;
-      font-size: 24pt;
+      font-size: 18pt;
       max-width: 90%;
-      margin: 25px auto;
+      margin: auto auto;
 }
 footer > p > a{
   color: white;
-  font-size: 24pt;
+  font-size: 18pt;
 }
 .marquee {
   position: relative;
