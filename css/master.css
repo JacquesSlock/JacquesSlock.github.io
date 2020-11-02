@@ -3,11 +3,6 @@
   color: #0000CD;
   /* //background-color: blue; */
 }
-@media screen and (max-width: 600px) {
-  * {
-    font-size: 48pt;
-  }
-}
 
 .logo{
   height: 150px;
