@@ -10,7 +10,7 @@
 }
 
 .logo{
-  height: 1em;
+  height: 150px;
 }
 body{
   margin: 0;
@@ -27,17 +27,21 @@ footer{
   position: fixed;
   z-index: 5;
   bottom: 0;
-  font-size: 24pt;
+
   background-color:  #0000CD;
-  color: white;
+
   width: 100vw;
   text-align: center;
 }
-
-footer > a{
+footer > p{
+    color: white;
+      font-size: 24pt;
+      max-width: 90%;
+      margin: 25px auto;
+}
+footer > p > a{
   color: white;
   font-size: 24pt;
-
 }
 .marquee {
   position: relative;
