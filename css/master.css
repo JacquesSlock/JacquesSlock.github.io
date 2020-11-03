@@ -233,4 +233,7 @@ li{
   ol{
     padding: unset;
   }
+  .arrow{
+    left: 80%;
+  }
 }
