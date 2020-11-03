@@ -4,6 +4,11 @@
   /* //background-color: blue; */
 }
 
+html{
+  overflow: hidden;
+  height: 100%;
+  width: 100vw;
+}
 .logo{
   height: 150px;
 }
@@ -195,7 +200,7 @@ li{
 }
 @media screen and (max-width: 600px) {
   .select-language{
-    top: 50vw;
+    top: 25vw;
     right: 15px;
   }
 
