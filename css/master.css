@@ -49,6 +49,7 @@ footer > p > a{
   ol{
     padding: 0;
   }
+
 }
 .marquee {
   position: relative;
@@ -165,7 +166,6 @@ li{
   top: calc(5vw + 40px);
   left: 5px;
   background-color: white;
-  transform: rotateY(90);
 }
 
 .rotate {
@@ -192,4 +192,40 @@ li{
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-3);
 
+}
+@media screen and (max-width: 600px) {
+  .select-language{
+    top: 50vw;
+    right: 15px;
+  }
+
+  .rotate {
+
+    transform-origin: 100% 200%;
+
+    transform: rotate(-90deg);
+
+
+    /* Legacy vendor prefixes that you probably don't need... */
+
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-3);
+
+  }
+
+  ol{
+    padding: unset;
+  }
 }
