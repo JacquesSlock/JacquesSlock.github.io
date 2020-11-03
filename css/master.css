@@ -157,3 +157,37 @@ li{
     opacity: 0;
   }
 }
+
+.select-language{
+  position: fixed;
+  top: calc(5vw + 40px);
+  left: 5px;
+  background-color: white;
+  transform: rotateY(90);
+}
+
+.rotate {
+
+  transform-origin: 00% 100%;
+
+  transform: rotate(90deg);
+
+
+  /* Legacy vendor prefixes that you probably don't need... */
+
+  /* Safari */
+  -webkit-transform: rotate(90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+
+  /* IE */
+  -ms-transform: rotate(90deg);
+
+  /* Opera */
+  -o-transform: rotate(90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-3);
+
+}
