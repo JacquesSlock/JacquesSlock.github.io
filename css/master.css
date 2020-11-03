@@ -169,9 +169,12 @@ li{
   position: fixed;
   top: calc(5vw + 40px);
   left: 5px;
-  background-color: white;
+
 }
 
+.select-language > a {
+  background-color: white;
+}
 .rotate {
 
   transform-origin: 00% 100%;
@@ -200,7 +203,7 @@ li{
 @media screen and (max-width: 600px) {
   .select-language{
     top: 25vw;
-    right: 15px;
+    right: 5px;
   }
 
   .rotate {
@@ -233,6 +236,6 @@ li{
     padding: unset;
   }
   .arrow{
-    left: 80%;
+    left: 85%;
   }
 }
