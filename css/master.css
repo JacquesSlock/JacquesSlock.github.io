@@ -58,6 +58,8 @@ footer > p > a{
   --move-final: calc(-65.5% + var(--offset));
   border-bottom: 3px solid #0000CD;
     border-top: 3px solid #0000CD;
+    z-index: 5;
+    background-color: white;
 }
 
 .marquee-top{
