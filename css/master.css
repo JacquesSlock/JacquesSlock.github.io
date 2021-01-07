@@ -95,6 +95,13 @@ footer > p > a{
   animation-play-state: running;
 } */
 
+#logo-vl{
+  height: 50px;
+  position: absolute;
+  right: 50px;
+  bottom: 25%;
+}
+
 @keyframes marquee {
   0% {
       transform: translate3d(var(--move-initial), 0, 0);
@@ -204,6 +211,13 @@ li{
   .select-language{
     top: 25vw;
     right: 5px;
+    margin: auto;
+  }
+
+  #logo-vl{
+    position: relative;
+    padding-top: 15px;
+    right: 0;
   }
 
   .rotate {
