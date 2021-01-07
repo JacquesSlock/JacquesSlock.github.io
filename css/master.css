@@ -3,19 +3,18 @@
   color: #0000CD;
   /* //background-color: blue; */
 }
-@media screen and (max-width: 600px) {
-  * {
-    font-size: 48pt;
-  }
-}
 
+html{
+  overflow-x: hidden;
+  width: 100vw;
+}
 .logo{
-  height: 1em;
+  height: 150px;
 }
 body{
   margin: 0;
   padding: 0;
-  margin-bottom: 150px;
+  margin-bottom: 250px;
 }
 
 .main_text{
@@ -23,20 +22,37 @@ body{
 }
 
 footer{
-  padding: 15px;
   position: fixed;
   z-index: 5;
   bottom: 0;
-  font-size: 24pt;
+
   background-color:  #0000CD;
-  color: white;
+
   width: 100vw;
   text-align: center;
 }
-
-footer > a{
+footer > p{
+    color: white;
+    font-size: 18pt;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer > p > a{
   color: white;
-  font-size: 24pt;
+  font-size: 18pt;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    padding-bottom: 30px;
+  }
+  footer > p > a, footer > p{
+    font-size: 10pt;
+  }
+  ol{
+    padding: 0;
+  }
 
 }
 .marquee {
@@ -47,6 +63,8 @@ footer > a{
   --move-final: calc(-65.5% + var(--offset));
   border-bottom: 3px solid #0000CD;
     border-top: 3px solid #0000CD;
+    z-index: 5;
+    background-color: white;
 }
 
 .marquee-top{
@@ -144,5 +162,80 @@ li{
   }
   100% {
     opacity: 0;
+  }
+}
+
+.select-language{
+  position: fixed;
+  top: calc(5vw + 40px);
+  left: 5px;
+
+}
+
+.select-language > a {
+  background-color: white;
+}
+.rotate {
+
+  transform-origin: 00% 100%;
+
+  transform: rotate(90deg);
+
+
+  /* Legacy vendor prefixes that you probably don't need... */
+
+  /* Safari */
+  -webkit-transform: rotate(90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+
+  /* IE */
+  -ms-transform: rotate(90deg);
+
+  /* Opera */
+  -o-transform: rotate(90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-3);
+
+}
+@media screen and (max-width: 600px) {
+  .select-language{
+    top: 25vw;
+    right: 5px;
+  }
+
+  .rotate {
+
+    transform-origin: 100% 200%;
+
+    transform: rotate(-90deg);
+
+
+    /* Legacy vendor prefixes that you probably don't need... */
+
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-3);
+
+  }
+
+  ol{
+    padding: unset;
+  }
+  .arrow{
+    left: 85%;
   }
 }
